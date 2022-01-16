@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+body {
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 28%, rgba(253,187,45,1) 100%);
+    font-family: "Rubik";
+}
+.main{
+    position: relative;
+    top: 8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 400px;
+}
+form{
+    padding: 40px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: 100%;
+}
+.my-custom-scrollbar {
+    padding: 2em;
+    position: relative;
+    height: 100%;
+    overflow: auto;
+}
+.table-wrapper-scroll-y {
+    display: block;
+}
